@@ -1,0 +1,119 @@
+@media(max-width: 1001px){
+
+}
+@media screen and (max-width: 1000px){
+	ul{
+	margin-top: 20px;
+}
+ul li a{
+	padding: 3px 7px;
+	border: 1px solid transparent;
+	transition: 0,8s;
+	font-size: 17px;
+	border-radius: 14px;
+}
+	.title h1{
+		font-size: 55px;
+		letter-spacing: 3px;
+		text-decoration: none;
+	}
+	footer img{
+	width: 60px;
+	height: 60px;
+	margin-top: 72%;
+    padding: 4px;
+	}
+	.logo img{
+	width: 150px;
+	height: 150px;
+	border-radius: 35px;
+	border: 2px solid;
+	border-color: white;
+	margin-top:10px;
+	margin-left: 4px;
+}
+}
+@media screen and (max-width: 900px){
+    .title h1{
+        font-size: 50px;
+        
+    }
+    .tap img{
+        height: 150px;
+        margin-top: 19px;
+        border-radius: 40px;
+    }
+    footer img{
+        margin-top: 90vh;
+        
+    }
+    .logo img{
+        border-radius: 20px;
+        height: 190px;
+        width: 160px;
+    }
+}
+@media (max-width: 700px){
+    header{
+        background-position: -20px;
+    }
+    .title h1{
+        font-size: 35px;
+        margin-top: 0px;
+    }
+    .tap img{
+        height: 140px;
+    }
+    .tap p{
+        font-size: 28px;
+    }
+}
+@media(max-width: 600px){
+	ul li a{
+	padding: 1px 6px;
+	border: 1px solid transparent;
+	transition: 0,8s;
+	font-size: 16px;
+	border-radius: 14px;
+}
+	.title h1{
+		font-size: 40px;
+		letter-spacing: 1px;
+        padding-top: 70px;
+	}
+	footer img{
+	width: 32px;
+	height: 38px;
+    margin-top: 91.8vh;
+	display: inline-block;
+
+	}
+	.logo img{
+	width: 104px;
+	height: 150px;
+	border-radius: 10px;
+	border: 2.3px solid;
+	border-color: white;
+	margin-top:10px;
+	margin-left: 4px;
+    }
+    .tap img{
+        height: 100px;
+    }
+    .tap p{
+        font-size: 22px;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    header{
+        background-position: -140px;
+    }
+}
+@media (max-width: 500px){
+    footer{
+        padding: 2px;
+}
+
+
+

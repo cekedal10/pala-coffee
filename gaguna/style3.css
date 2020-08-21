@@ -1,0 +1,60 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("kedai.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: auto;
+}
+.header-list{
+	font-family: rockwell;	
+}
+.header-list ul{
+	list-style-type: none;
+	float: left;
+	margin-top: 15px;
+}
+.header-list ul li{
+	display: inline-block;
+}
+.header-list ul li a{
+	color: white;
+	padding: 5px 13px;
+	border: 1px solid transparent;
+	transition: 0,6s;
+	font-family: rockwell;
+	font-size: 19px;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 10px;
+
+}
+.header-list ul li a:hover{
+	background-color: white;
+	color: black;
+}	
+.header-list ul li .active{
+	background-color: white;
+	color: black;
+}
+.header-logo img{
+	float: right;
+	width: 190px;
+	height: 200px;
+	border-radius: 30px;
+	border: 3px solid;
+	border-color: white;
+}
+.text-wrapper{
+	text-align: center;
+	font-family: cambria;
+	font-size: 22px;
+	font-weight: bold;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+}
